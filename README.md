@@ -1,2 +1,4 @@
-# k-NN
-Performance analysis of k-NN applied to Waveforms dataset
+# Performance analysis of k-NN applied to Waveforms dataset
+K-Nearest Neighbors (k-NN) is a simple yet theoretically well-founded machine learning algorithm used for both classification and regression tasks. The algorithm operates by finding the k-nearest data points to a given input in the feature space. The predicted output is determined based on the majority class (for classification) or the average value (for regression) of these k-nearest neighbors. k-NN is a lazy learning algorithm, meaning it does not make assumptions about the underlying data distribution and does not require a training phase. Despite its simplicity, k-NN has demonstrated effectiveness by outperforming other classifiers on various learning challenges.
+
+The choice of the hyperparameter k, determining the number of neighbors considered for predictions, is crucial and requires tuning. In this project, we find the best combination of (k,p) where p is the power used in calculating the distances. To enhance k-NN’s efficiency, strategies like reducing the training set size and speeding up distance calculations are explored. Additionally, the impact of dataset imbalance on the model’s accuracy is investigated by creating an artificial imbalance in the Waveform dataset.
